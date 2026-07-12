@@ -42,7 +42,7 @@ export default function HomeTab({ setActiveTab }) {
           <Quote className="quote-mark" size={70} />
           <p className="mono-label text-[#ffb0cb]">Student Profile</p>
           <div className="portrait-frame">
-            <img src="/avatar.jpg" alt="Chân dung Lê Xuân Vi Bảo" />
+            <img src="/avatar.jpg" alt="Chân dung Lê Xuân Vi Bảo" className="object-cover object-[center_30%]" />
             <span>{student.name}</span>
           </div>
           <div className="profile-meta">

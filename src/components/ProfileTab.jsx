@@ -2,7 +2,7 @@ import { Archive, Database, Globe2, Languages } from 'lucide-react';
 import { portfolioData } from '../data/portfolioData';
 
 export default function ProfileTab({ setActiveTab }) {
-  const { student } = portfolioData;
+  const { student, projects } = portfolioData;
 
   return (
     <div className="animate-fade-in">
@@ -29,7 +29,7 @@ export default function ProfileTab({ setActiveTab }) {
 
         <aside className="tilted-portrait">
           <div className="portrait-frame">
-            <img src="/avatar.jpg" alt="Chân dung Lê Xuân Vi Bảo" />
+            <img src="/avatar.jpg" alt="Chân dung Lê Xuân Vi Bảo" className="object-cover object-[center_30%]" />
           </div>
           <span className="sticker lime">Catalyst</span>
         </aside>
@@ -66,7 +66,7 @@ export default function ProfileTab({ setActiveTab }) {
           <h2>Curated Records</h2>
           <div className="records-grid">
             <article className="record-image">
-              <img src="/images/Bài 1.png" alt="Minh chứng bài 1" />
+              <img src={projects[0]?.evidenceImg || "/images/Bài 1.png"} alt="Minh chứng bài 1" />
               <span>Project ref: 2025-01</span>
             </article>
             <article className="record-cta">
