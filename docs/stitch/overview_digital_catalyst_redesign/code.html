@@ -1,0 +1,342 @@
+<!DOCTYPE html><html class="dark" lang="vi" style="width: 1280px; height: 2651px; overflow: hidden; position: relative;"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Arabic Language &amp; Culture | Digital PORTFOLIO</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;700&amp;family=Manrope:wght@400;500;700&amp;family=Space+Mono:wght@400;700&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@100..900&amp;family=Space+Grotesk:wght@100..900&amp;family=Space+Mono:wght@100..900&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-secondary-container": "#556d00",
+                        "secondary-fixed-dim": "#abd600",
+                        "inverse-primary": "#b80069",
+                        "on-secondary-fixed-variant": "#3c4d00",
+                        "surface-container-high": "#2a2a2a",
+                        "on-tertiary-container": "#002a54",
+                        "tertiary-fixed-dim": "#a7c8ff",
+                        "secondary-container": "#c3f400",
+                        "surface-container-lowest": "#0e0e0e",
+                        "tertiary-container": "#6e92ca",
+                        "primary-fixed-dim": "#ffb0cb",
+                        "on-tertiary-fixed": "#001b3b",
+                        "primary-container": "#ff469d",
+                        "on-secondary": "#283500",
+                        "primary-fixed": "#ffd9e3",
+                        "surface-variant": "#353535",
+                        "on-primary": "#640037",
+                        "outline-variant": "#5a3f48",
+                        "on-surface-variant": "#e1bdc7",
+                        "on-tertiary": "#003060",
+                        "on-tertiary-fixed-variant": "#1f477a",
+                        "on-primary-fixed": "#3e0020",
+                        "error-container": "#93000a",
+                        "on-surface": "#e2e2e2",
+                        "outline": "#a98892",
+                        "surface-dim": "#131313",
+                        "inverse-on-surface": "#303030",
+                        "error": "#ffb4ab",
+                        "background": "#131313",
+                        "surface-container-highest": "#353535",
+                        "on-error": "#690005",
+                        "secondary-fixed": "#c3f400",
+                        "on-error-container": "#ffdad6",
+                        "surface-container": "#1f1f1f",
+                        "surface": "#131313",
+                        "on-primary-fixed-variant": "#8d004f",
+                        "on-background": "#e2e2e2",
+                        "on-secondary-fixed": "#161e00",
+                        "surface-bright": "#393939",
+                        "primary": "#ffb0cb",
+                        "tertiary-fixed": "#d5e3ff",
+                        "on-primary-container": "#58002f",
+                        "surface-container-low": "#1b1b1b",
+                        "inverse-surface": "#e2e2e2",
+                        "surface-tint": "#ffb0cb",
+                        "tertiary": "#a7c8ff",
+                        "secondary": "#ffffff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "gutter": "16px",
+                        "margin-desktop": "64px",
+                        "panel-gap": "32px",
+                        "margin-mobile": "20px",
+                        "unit": "4px"
+                    },
+                    "fontFamily": {
+                        "ticker-text": ["Space Grotesk"],
+                        "headline-md": ["Space Grotesk"],
+                        "body-md": ["Manrope"],
+                        "body-lg": ["Manrope"],
+                        "headline-lg": ["Space Grotesk"],
+                        "headline-xl": ["Space Grotesk"],
+                        "label-mono": ["Space Mono"],
+                        "headline-lg-mobile": ["Space Grotesk"]
+                    },
+                    "fontSize": {
+                        "ticker-text": ["24px", {"lineHeight": "24px", "fontWeight": "700"}],
+                        "headline-md": ["32px", {"lineHeight": "36px", "fontWeight": "700"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "500"}],
+                        "headline-lg": ["64px", {"lineHeight": "60px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "headline-xl": ["120px", {"lineHeight": "110px", "letterSpacing": "-0.04em", "fontWeight": "700"}],
+                        "label-mono": ["14px", {"lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                        "headline-lg-mobile": ["48px", {"lineHeight": "44px", "fontWeight": "700"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        @keyframes ticker {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+        .animate-ticker {
+            animation: ticker 30s linear infinite;
+        }
+        .neo-brutal-shadow {
+            box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+        }
+        .neo-brutal-shadow-primary {
+            box-shadow: 8px 8px 0px 0px #ff469d;
+        }
+        .neo-brutal-shadow-secondary {
+            box-shadow: 8px 8px 0px 0px #c3f400;
+        }
+        .hover-press:active {
+            transform: translate(4px, 4px);
+            box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 1);
+        }
+        .pixel-bubble {
+            position: relative;
+            background: #e2e2e2;
+            border: 3px solid #131313;
+        }
+        .pixel-bubble::after {
+            content: '';
+            position: absolute;
+            bottom: -15px;
+            left: 20px;
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 15px solid #131313;
+        }
+        .torn-paper {
+            mask-image: radial-gradient(circle at 10px 0, transparent 10px, white 11px);
+            mask-size: 20px 100%;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background selection:bg-primary-container selection:text-on-primary-container overflow-x-hidden">
+<nav class="bg-background border-b-4 border-on-surface sticky top-0 z-[100] w-full" id="TopAppBar">
+<div class="flex flex-col md:flex-row justify-between items-center w-full px-gutter py-4 gap-4">
+<div class="text-headline-md font-headline-md font-bold text-primary dark:text-primary tracking-tighter">
+                Digital PORTFOLIO
+            </div>
+<div class="flex flex-wrap justify-center gap-4">
+<a class="text-label-mono font-label-mono text-secondary-fixed bg-on-secondary-container border-2 border-on-surface px-2 transition-all" href="#">OVERVIEW</a>
+<a class="text-label-mono font-label-mono text-on-surface hover:text-primary transition-colors" href="#">PROFILE</a>
+<a class="text-label-mono font-label-mono text-on-surface hover:text-primary transition-colors" href="#">LEARNING MAP</a>
+<a class="text-label-mono font-label-mono text-on-surface hover:text-primary transition-colors" href="#">ASSIGNMENTS</a>
+<a class="text-label-mono font-label-mono text-on-surface hover:text-primary transition-colors" href="#">EVIDENCE</a>
+<a class="text-label-mono font-label-mono text-on-surface hover:text-primary transition-colors" href="#">RUBRIC</a>
+<a class="text-label-mono font-label-mono text-on-surface hover:text-primary transition-colors" href="#">REFLECTION</a>
+</div>
+</div>
+</nav>
+<div class="w-full bg-primary-container border-b-4 border-on-surface overflow-hidden py-2">
+<div class="flex whitespace-nowrap animate-ticker">
+<div class="flex items-center gap-8 px-4">
+<span class="font-ticker-text text-ticker-text text-on-primary-container uppercase italic">Arabic Language &amp; Culture Learning Portfolio</span>
+<span class="material-symbols-outlined text-on-primary-container">star</span>
+<span class="font-ticker-text text-ticker-text text-on-primary-container uppercase italic">Creative Portfolio 2026</span>
+<span class="material-symbols-outlined text-on-primary-container">star</span>
+<span class="font-ticker-text text-ticker-text text-on-primary-container uppercase italic">Digital Transformation in Education</span>
+<span class="material-symbols-outlined text-on-primary-container">star</span>
+</div>
+<div class="flex items-center gap-8 px-4">
+<span class="font-ticker-text text-ticker-text text-on-primary-container uppercase italic">Arabic Language &amp; Culture Learning Portfolio</span>
+<span class="material-symbols-outlined text-on-primary-container">star</span>
+<span class="font-ticker-text text-ticker-text text-on-primary-container uppercase italic">Creative Portfolio 2026</span>
+<span class="material-symbols-outlined text-on-primary-container">star</span>
+<span class="font-ticker-text text-ticker-text text-on-primary-container uppercase italic">Digital Transformation in Education</span>
+<span class="material-symbols-outlined text-on-primary-container">star</span>
+</div>
+</div>
+</div>
+<main class="min-h-screen px-gutter md:px-margin-desktop py-12 flex flex-col gap-24 relative">
+<section class="grid grid-cols-1 md:grid-cols-12 gap-panel-gap items-center min-h-[716px]">
+<div class="md:col-span-7 flex flex-col gap-8">
+<div class="relative group">
+<div class="absolute -inset-4 bg-secondary-fixed -rotate-1 group-hover:rotate-0 transition-transform -z-10 border-2 border-on-surface"></div>
+
+</div>
+<div class="max-w-xl">
+<p class="font-body-lg text-body-lg text-on-surface-variant bg-surface-container-low p-6 border-l-8 border-secondary-fixed neo-brutal-shadow">
+                        Portfolio môn Nhập môn Công nghệ số và Ứng dụng Trí tuệ nhân tạo. Khám phá sự giao thoa giữa ngôn ngữ truyền thống và công nghệ hiện đại.
+                    </p>
+</div>
+<div class="flex flex-wrap gap-6 mt-8">
+<button class="bg-primary-container text-on-primary-container font-headline-md text-headline-md px-10 py-4 border-4 border-on-surface neo-brutal-shadow hover-press transition-all uppercase">
+                        MỤC BÀI TẬP
+                    </button>
+<button class="bg-secondary-fixed text-on-secondary-fixed font-headline-md text-headline-md px-10 py-4 border-4 border-on-surface neo-brutal-shadow-primary hover-press transition-all uppercase">
+                        MINH CHỨNG
+                    </button>
+</div>
+</div>
+<div class="md:col-span-5 relative">
+<div class="w-full aspect-square bg-surface-container border-4 border-on-surface relative overflow-hidden neo-brutal-shadow-secondary">
+<img class="object-cover w-full h-full grayscale hover:grayscale-0 transition-all duration-700" data-alt="A professional young female educator specializing in Arabic culture and digital technology, standing against a dark editorial background. She is wearing a modern black blazer with high-end gold accessories. The visual style is high-contrast, edgy, and avant-garde, inspired by retro-futuristic fashion photography. Soft blue lighting accents her features, creating a sophisticated and creative mood." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBR7brnxcrp6ZaGg6Sc5A_GvFOJZuyhfJboNB_tVtFbaCIKq99uXtHPOSTXkCzes5EvE8JebgfhqDzerO7TDirPOdPOjcddAOhTru0R5XNjYj3oTNBsIZHqztb0DXoQifgA0eXq99enABwKu6CCWJn8RCaHJA1mNWbyKYIvnqIY7Q1UxVFH0Y58xSusDg4xYqdnJzJicjbkUdbR39RbmvYsEbX6YJdrX6RYs_j8vCNanjZWKj2LlcgZCzy9r90fa2lvhpgDZLAwAX4z">
+<div class="absolute top-4 right-4 bg-primary-container text-on-primary-container p-3 border-2 border-on-surface rotate-12 font-label-mono text-label-mono">
+                        VERIFIED 2026
+                    </div>
+</div>
+<div class="absolute -bottom-8 -left-8 w-48 h-48 border-4 border-on-surface rounded-full bg-tertiary-container -z-10"></div>
+<div class="absolute -top-12 -right-12">
+<span class="material-symbols-outlined text-[120px] text-secondary-fixed opacity-50" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+</section>
+<section class="w-full">
+<div class="bg-on-surface text-background p-8 mb-12 flex flex-col md:flex-row items-center justify-between gap-6 border-b-8 border-primary-container">
+<h2 class="font-headline-lg text-headline-lg uppercase">Module Explorer</h2>
+<div class="font-label-mono text-label-mono text-right hidden md:block">
+                    [ SYSTEMS: ACTIVE ] <br> [ DATA_TYPE: PORTFOLIO ]
+                </div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter">
+<div class="group bg-surface-container border-2 border-on-surface p-8 neo-brutal-shadow hover:bg-on-secondary-container hover:text-secondary-fixed transition-all cursor-pointer">
+<div class="font-label-mono text-label-mono mb-4 text-primary group-hover:text-secondary-fixed">01</div>
+<h3 class="font-headline-md text-headline-md mb-4">Coursework</h3>
+<p class="font-body-md text-body-md opacity-70">Tổng hợp các bài tập và lộ trình học tập hàng tuần.</p>
+</div>
+<div class="group bg-surface-container border-2 border-on-surface p-8 neo-brutal-shadow hover:bg-primary-container hover:text-on-primary-container transition-all cursor-pointer">
+<div class="font-label-mono text-label-mono mb-4 text-primary group-hover:text-on-primary-container">02</div>
+<h3 class="font-headline-md text-headline-md mb-4">Evidence</h3>
+<p class="font-body-md text-body-md opacity-70">Minh chứng thực tế cho quá trình tiếp thu kiến thức.</p>
+</div>
+<div class="group bg-surface-container border-2 border-on-surface p-8 neo-brutal-shadow hover:bg-tertiary-container hover:text-on-tertiary-container transition-all cursor-pointer">
+<div class="font-label-mono text-label-mono mb-4 text-primary group-hover:text-on-tertiary-container">03</div>
+<h3 class="font-headline-md text-headline-md mb-4">Rubric</h3>
+<p class="font-body-md text-body-md opacity-70">Tiêu chuẩn đánh giá và bảng điểm chi tiết các module.</p>
+</div>
+<div class="group bg-surface-container border-2 border-on-surface p-8 neo-brutal-shadow hover:bg-secondary-fixed hover:text-on-secondary-fixed transition-all cursor-pointer">
+<div class="font-label-mono text-label-mono mb-4 text-primary group-hover:text-on-secondary-fixed">04</div>
+<h3 class="font-headline-md text-headline-md mb-4">Reflection</h3>
+<p class="font-body-md text-body-md opacity-70">Phản hồi và bài viết chiêm nghiệm sau khóa học.</p>
+</div>
+</div>
+</section>
+<section class="grid grid-cols-1 md:grid-cols-2 gap-panel-gap mb-24">
+<div class="relative flex items-center justify-center p-12 bg-surface-container-highest border-4 border-on-surface">
+<div class="pixel-bubble p-8 max-w-sm">
+<p class="font-label-mono text-label-mono text-background">
+                        "Strategy becomes credible when it is documented, reviewed, and reflected upon."
+                    </p>
+</div>
+<div class="absolute -top-6 -right-6">
+<span class="material-symbols-outlined text-primary text-6xl" style="font-variation-settings: 'FILL' 1;">format_quote</span>
+</div>
+</div>
+<div class="bg-surface-container-low border-4 border-on-surface p-8 flex flex-col gap-6 relative overflow-hidden">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-secondary-fixed border-2 border-on-surface flex items-center justify-center">
+<span class="material-symbols-outlined text-background">barcode_scanner</span>
+</div>
+<h4 class="font-headline-md text-headline-md">PROJECT METADATA</h4>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="border-2 border-on-surface p-4 bg-background">
+<div class="font-label-mono text-[10px] text-primary uppercase">Subject ID</div>
+<div class="font-label-mono text-label-mono">ARA-TECH-2026</div>
+</div>
+<div class="border-2 border-on-surface p-4 bg-background">
+<div class="font-label-mono text-[10px] text-primary uppercase">Status</div>
+<div class="font-label-mono text-label-mono">IN_PROGRESS</div>
+</div>
+<div class="border-2 border-on-surface p-4 bg-background col-span-2">
+<div class="font-label-mono text-[10px] text-primary uppercase">Faculty</div>
+<div class="font-label-mono text-label-mono">DIGITAL INNOVATION CENTER</div>
+</div>
+</div>
+<div class="absolute bottom-4 right-4 opacity-10">
+<span class="material-symbols-outlined text-9xl">language</span>
+</div>
+</div>
+</section>
+</main>
+<div class="w-full bg-secondary-fixed border-t-4 border-on-surface overflow-hidden py-2 mb-16">
+<div class="flex whitespace-nowrap animate-ticker">
+<div class="flex items-center gap-8 px-4">
+<span class="font-ticker-text text-ticker-text text-on-secondary-fixed uppercase italic">creative portfolio ✶ creative portfolio ✶ creative portfolio</span>
+<span class="font-ticker-text text-ticker-text text-on-secondary-fixed uppercase italic">creative portfolio ✶ creative portfolio ✶ creative portfolio</span>
+</div>
+<div class="flex items-center gap-8 px-4">
+<span class="font-ticker-text text-ticker-text text-on-secondary-fixed uppercase italic">creative portfolio ✶ creative portfolio ✶ creative portfolio</span>
+<span class="font-ticker-text text-ticker-text text-on-secondary-fixed uppercase italic">creative portfolio ✶ creative portfolio ✶ creative portfolio</span>
+</div>
+</div>
+</div>
+<footer class="bg-surface-container-lowest border-t-4 border-on-surface grid grid-cols-1 md:grid-cols-2 gap-panel-gap w-full px-gutter md:px-margin-desktop py-12 mb-16">
+<div class="flex flex-col gap-6">
+<div class="text-headline-md font-headline-md text-primary">Digital PORTFOLIO</div>
+<p class="font-body-md text-body-md text-on-surface">©2026 Digital PORTFOLIO — BUILT FOR DISRUPTION</p>
+</div>
+<div class="flex flex-col md:items-end gap-6">
+<div class="flex flex-wrap gap-8">
+<a class="text-label-mono font-label-mono text-on-surface-variant hover:skew-x-2 transition-transform hover:text-primary" href="#">Instagram</a>
+<a class="text-label-mono font-label-mono text-on-surface-variant hover:skew-x-2 transition-transform hover:text-primary" href="#">Dribbble</a>
+<a class="text-label-mono font-label-mono text-on-surface-variant hover:skew-x-2 transition-transform hover:text-primary" href="#">LinkedIn</a>
+<a class="text-label-mono font-label-mono text-on-surface-variant hover:skew-x-2 transition-transform hover:text-primary" href="#">Email</a>
+</div>
+<div class="flex gap-4">
+<div class="w-10 h-10 border-2 border-on-surface bg-primary-container"></div>
+<div class="w-10 h-10 border-2 border-on-surface bg-secondary-fixed"></div>
+<div class="w-10 h-10 border-2 border-on-surface bg-tertiary-container"></div>
+</div>
+</div>
+</footer>
+<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center h-16 bg-secondary-fixed border-t-4 border-on-surface md:hidden" id="BottomNavBar">
+<a class="flex flex-col items-center justify-center bg-on-secondary-fixed text-secondary-fixed px-6 py-2 translate-y-1 transition-transform duration-100" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">home</span>
+<span class="text-label-mono font-label-mono">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-secondary-fixed px-6 py-2 hover:bg-on-secondary-fixed-variant transition-all" href="#">
+<span class="material-symbols-outlined">grid_view</span>
+<span class="text-label-mono font-label-mono">Work</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-secondary-fixed px-6 py-2 hover:bg-on-secondary-fixed-variant transition-all" href="#">
+<span class="material-symbols-outlined">person</span>
+<span class="text-label-mono font-label-mono">About</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-secondary-fixed px-6 py-2 hover:bg-on-secondary-fixed-variant transition-all" href="#">
+<span class="material-symbols-outlined">mail</span>
+<span class="text-label-mono font-label-mono">Contact</span>
+</a>
+</nav>
+<script>
+        // Micro-interaction for buttons
+        document.querySelectorAll('button').forEach(button => {
+            button.addEventListener('mouseenter', () => {
+                button.style.transform = 'translate(-2px, -2px)';
+            });
+            button.addEventListener('mouseleave', () => {
+                button.style.transform = 'translate(0, 0)';
+            });
+        });
+    </script>
+<div id="snapdom-sandbox" data-snapdom-sandbox="true" aria-hidden="true" style="position: absolute; left: -9999px; top: -9999px; width: 0px; height: 0px; overflow: hidden;"></div></body></html>
