@@ -33,13 +33,13 @@ export default function EvidenceTable() {
       )}
 
       <section className="ticker-strip lime">
-        <div>Authenticated Archive ☆ Academic Milestones 2026 ☆ Assignments Repository ☆ Verified Links ☆</div>
+        <div>Authenticated Archive ☆ Academic Milestones 2026 ☆ Evidence Repository ☆ Verified Links ☆</div>
       </section>
 
       <section className="section-grid evidence-section">
         <header className="evidence-header">
           <div>
-            <h1 className="mega-title">Assignments<br /><span>Repository</span></h1>
+            <h1 className="mega-title">Evidence<br /><span>Repository</span></h1>
             <p>A curated archive of reports and screenshots for each learning milestone.</p>
           </div>
           <div className="artifact-count">

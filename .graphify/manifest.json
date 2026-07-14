@@ -23152,16 +23152,16 @@
     "hash": "e1a50e071f9493e2b3401f21cf794a81"
   },
   "src/components/HomeTab.jsx": {
-    "mtime": 1784036258345.0835,
-    "hash": "2caf615153a468f9652394dd55cdc90d"
+    "mtime": 1784036686340.7307,
+    "hash": "480dfee2ac7702e95b83d50e9c1d047c"
   },
   "src/components/LearningMap.jsx": {
     "mtime": 1783856985714.7454,
     "hash": "dfa0f478c1ea86dd3569e3a6bf32bc59"
   },
   "src/components/ProfileTab.jsx": {
-    "mtime": 1784036264720.7178,
-    "hash": "ed2c6b8dd02ff3bfc3cd6893ffc288f2"
+    "mtime": 1784037139617.5034,
+    "hash": "c77ddf35a00535da277a0b1a8fd61f4a"
   },
   "src/components/ProjectsTab.jsx": {
     "mtime": 1783859159135.1516,
@@ -23180,8 +23180,8 @@
     "hash": "2120c19b49beb6460e21faab210ad9b1"
   },
   "src/data/portfolioData.js": {
-    "mtime": 1784036584078.8552,
-    "hash": "8c772c21b78635a2a9863ccd07cdc3fe"
+    "mtime": 1784037130432.961,
+    "hash": "a8babe00a978362479dcce84ca2b6d08"
   },
   "src/main.jsx": {
     "mtime": 1783856372000,
@@ -23204,8 +23204,8 @@
     "hash": "a28dc4cb878325f3e9e5649f3e1469ac"
   },
   "dist/index.html": {
-    "mtime": 1784036592112.597,
-    "hash": "a7d60ab96df3a4edf29fb64c83c5df65"
+    "mtime": 1784037144686.0466,
+    "hash": "b67545c80fddb29c99d8109012da0d4e"
   },
   "docs/stitch/assignments_digital_catalyst_redesign/code.html": {
     "mtime": 1783859369540.3376,
@@ -24272,27 +24272,27 @@
     "hash": "b489730fc20fdfc9c031fb0f1028470e"
   },
   "dist/docs/bai1.pdf": {
-    "mtime": 1784036592059.0708,
+    "mtime": 1784037144619.05,
     "hash": "a5c6260c09d0cf18405295bd6adb39de"
   },
   "dist/docs/bai2.pdf": {
-    "mtime": 1784036592059.3433,
+    "mtime": 1784037144620.6501,
     "hash": "95cd43fc380de9fea5074b3b47001f2f"
   },
   "dist/docs/bai3.pdf": {
-    "mtime": 1784036592059.5886,
+    "mtime": 1784037144621.3733,
     "hash": "04130715e4a2eb20c3c290645db7a41a"
   },
   "dist/docs/bai4.pdf": {
-    "mtime": 1784036592060.7761,
+    "mtime": 1784037144624.0227,
     "hash": "b65fdc31739d68f551ffd4d9ff34ad88"
   },
   "dist/docs/bai5.pdf": {
-    "mtime": 1784036592061.577,
+    "mtime": 1784037144625.972,
     "hash": "55b6ef62419d003e4a5ac1f9f8872944"
   },
   "dist/docs/bai6.pdf": {
-    "mtime": 1784036592062.5723,
+    "mtime": 1784037144632.8535,
     "hash": "6602437b0428410cb8e32ba7eee4e7af"
   },
   "public/docs/bai1.pdf": {
@@ -24320,23 +24320,19 @@
     "hash": "6602437b0428410cb8e32ba7eee4e7af"
   },
   "dist/avatar.jpg": {
-    "mtime": 1784036592057.9587,
+    "mtime": 1784037144613.7722,
     "hash": "8269bb461ddf5d973f28623b8a348542"
   },
   "dist/favicon.svg": {
-    "mtime": 1784036592062.752,
+    "mtime": 1784037144633.1282,
     "hash": "7e840862161341271697daa99a40d76b"
   },
   "dist/icons.svg": {
-    "mtime": 1784036592062.905,
+    "mtime": 1784037144633.341,
     "hash": "3b4fcfcf393eca4d264dca4a4663bc37"
   },
-  "dist/images/Untitled.png": {
-    "mtime": 1784036592064.691,
-    "hash": "22344b9df7511098ad75daedc92fb5d3"
-  },
   "dist/logo.png": {
-    "mtime": 1784036592064.9006,
+    "mtime": 1784037144639.8203,
     "hash": "93eb966d2930124c8491f4dddec6035d"
   },
   "docs/stitch/assignments_digital_catalyst_redesign/screen.png": {
@@ -24379,10 +24375,6 @@
     "mtime": 1783856372000,
     "hash": "3b4fcfcf393eca4d264dca4a4663bc37"
   },
-  "public/images/Untitled.png": {
-    "mtime": 1783859239168.0916,
-    "hash": "22344b9df7511098ad75daedc92fb5d3"
-  },
   "public/logo.png": {
     "mtime": 1783856372000,
     "hash": "93eb966d2930124c8491f4dddec6035d"
@@ -24400,7 +24392,7 @@
     "hash": "9960a24288958394ac50e57ff638b036"
   },
   ".graphify/GRAPH_REPORT.md": {
-    "mtime": 1784036283976.208,
-    "hash": "ea8e0c2ae986b2342700abbd46779880"
+    "mtime": 1784036599517.6025,
+    "hash": "8d3acaf20a54836dfe580f4a880d8732"
   }
 }

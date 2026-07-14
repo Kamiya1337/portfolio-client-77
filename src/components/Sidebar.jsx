@@ -1,4 +1,4 @@
-import { BookOpen, Home, Map, Menu, MessageSquare, User, X } from 'lucide-react';
+import { BookOpen, CheckSquare, FileCheck, Home, Map, Menu, MessageSquare, User, X } from 'lucide-react';
 
 export default function Sidebar({ activeTab, setActiveTab, isMobileOpen, setIsMobileOpen }) {
   const navItems = [
@@ -6,6 +6,8 @@ export default function Sidebar({ activeTab, setActiveTab, isMobileOpen, setIsMo
     { id: 'profile', icon: User, label: 'Profile' },
     { id: 'learning', icon: Map, label: 'Learning Map' },
     { id: 'assignments', icon: BookOpen, label: 'Assignments' },
+    { id: 'evidence', icon: FileCheck, label: 'Evidence' },
+    { id: 'rubric', icon: CheckSquare, label: 'Rubric' },
     { id: 'reflection', icon: MessageSquare, label: 'Reflection' },
   ];
 
