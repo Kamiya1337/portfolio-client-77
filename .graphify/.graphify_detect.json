@@ -6112,9 +6112,9 @@
     "video": []
   },
   "total_files": 6101,
-  "total_words": 6816164,
+  "total_words": 6816158,
   "needs_graph": true,
-  "warning": "Large corpus: 6101 files · ~6,816,164 words. Semantic extraction will be expensive (many Claude tokens). Consider running on a subfolder, or use --no-semantic to run AST-only.",
+  "warning": "Large corpus: 6101 files · ~6,816,158 words. Semantic extraction will be expensive (many Claude tokens). Consider running on a subfolder, or use --no-semantic to run AST-only.",
   "skipped_sensitive": [
     "node_modules/@babel/generator/lib/token-map.js",
     "node_modules/@babel/generator/lib/token-map.js.map",
@@ -6143,13 +6143,13 @@
     "source": "default-auto",
     "root": ".",
     "git_root": ".",
-    "head": "582a4a490958dae5f007de20d05445e191d5f9d5",
-    "candidate_count": 9567,
+    "head": "25589684e7e4a6be741da2d79a9d0384808b6927",
+    "candidate_count": 9574,
     "included_count": 6101,
-    "excluded_untracked_count": 3,
+    "excluded_untracked_count": 1,
     "excluded_ignored_count": 2,
     "excluded_sensitive_count": 19,
-    "missing_committed_count": 14,
+    "missing_committed_count": 13,
     "warnings": [],
     "recommendation": "Use --scope all or graphify.yaml inputs.corpus for a knowledge-base folder."
   }
