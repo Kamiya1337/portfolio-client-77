@@ -105,7 +105,7 @@ export default function HomeTab({ setActiveTab }) {
               </div>
               <div>
                 <dt>Status</dt>
-                <dd>In progress</dd>
+                <dd>Done!</dd>
               </div>
               <div>
                 <dt>Faculty</dt>
