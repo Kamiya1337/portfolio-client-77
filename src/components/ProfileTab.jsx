@@ -25,6 +25,10 @@ export default function ProfileTab({ setActiveTab }) {
             <h2>Personal philosophy</h2>
             <p>{student.bio}</p>
           </article>
+          <article className="paper-card mt-8">
+            <h2>Sở thích</h2>
+            <p>Trong thời gian rảnh, mình thích nghe nhạc, xem phim và khám phá những điều mới. Những hoạt động này giúp mình thư giãn, cân bằng cuộc sống và tìm thêm cảm hứng cho học tập cũng như công việc.</p>
+          </article>
         </div>
 
         <aside className="tilted-portrait">

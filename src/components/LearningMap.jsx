@@ -30,9 +30,6 @@ export default function LearningMap({ setActiveTab }) {
                 {index === 0 && (
                   <button onClick={() => setActiveTab('assignments')} className="neo-button compact">View track</button>
                 )}
-                {index === overview.length - 1 && (
-                  <button onClick={() => setActiveTab('rubric')} className="neo-button compact dark">Start capstone</button>
-                )}
               </article>
             );
           })}
