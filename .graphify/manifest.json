@@ -23144,24 +23144,24 @@
     "hash": "ef3ba2a81ba19f8ea5ddf625521e96f0"
   },
   "src/App.jsx": {
-    "mtime": 1783856985086.41,
-    "hash": "e55f4f22884d70789080e99b7e11c41e"
+    "mtime": 1784036252321.4746,
+    "hash": "fa9c65f9dc9a14004dda6dd3d6b24270"
   },
   "src/components/EvidenceTable.jsx": {
-    "mtime": 1783859163677.2664,
-    "hash": "725b3969a322f37b766600d350d96c75"
+    "mtime": 1784036269063.0442,
+    "hash": "e1a50e071f9493e2b3401f21cf794a81"
   },
   "src/components/HomeTab.jsx": {
-    "mtime": 1783861440793.9238,
-    "hash": "f7663c685a86a6442608f494fb7c5f86"
+    "mtime": 1784036258345.0835,
+    "hash": "2caf615153a468f9652394dd55cdc90d"
   },
   "src/components/LearningMap.jsx": {
     "mtime": 1783856985714.7454,
     "hash": "dfa0f478c1ea86dd3569e3a6bf32bc59"
   },
   "src/components/ProfileTab.jsx": {
-    "mtime": 1783861453493.448,
-    "hash": "cd2b10cefffe0f5bb49cc2b128cbefa0"
+    "mtime": 1784036264720.7178,
+    "hash": "ed2c6b8dd02ff3bfc3cd6893ffc288f2"
   },
   "src/components/ProjectsTab.jsx": {
     "mtime": 1783859159135.1516,
@@ -23172,12 +23172,12 @@
     "hash": "98d147f4142ef3871f932376aedfbd6c"
   },
   "src/components/Sidebar.jsx": {
-    "mtime": 1783859369549.6794,
-    "hash": "47496e945df2d07c29035ec76c72c94f"
+    "mtime": 1784036248012.8926,
+    "hash": "251d2761a674a97e38041b14f0f45cf3"
   },
   "src/components/Summary.jsx": {
-    "mtime": 1783858473761.1355,
-    "hash": "278ae4ad7119f4de707e9e09a9b5673e"
+    "mtime": 1784036125339.4744,
+    "hash": "2120c19b49beb6460e21faab210ad9b1"
   },
   "src/data/portfolioData.js": {
     "mtime": 1783859856563.354,
@@ -23204,8 +23204,8 @@
     "hash": "a28dc4cb878325f3e9e5649f3e1469ac"
   },
   "dist/index.html": {
-    "mtime": 1783861464504.1572,
-    "hash": "1bb2d336f8a3c54bc4985b7e935a1863"
+    "mtime": 1784036274193.1182,
+    "hash": "d08b89139d0e60404fb55c93d691fd83"
   },
   "docs/stitch/assignments_digital_catalyst_redesign/code.html": {
     "mtime": 1783859369540.3376,
@@ -24272,27 +24272,27 @@
     "hash": "b489730fc20fdfc9c031fb0f1028470e"
   },
   "dist/docs/bai1.pdf": {
-    "mtime": 1783861464454.6245,
+    "mtime": 1784036274115.7566,
     "hash": "a5c6260c09d0cf18405295bd6adb39de"
   },
   "dist/docs/bai2.pdf": {
-    "mtime": 1783861464455.0845,
+    "mtime": 1784036274120.3718,
     "hash": "95cd43fc380de9fea5074b3b47001f2f"
   },
   "dist/docs/bai3.pdf": {
-    "mtime": 1783861464455.5488,
+    "mtime": 1784036274122.2395,
     "hash": "04130715e4a2eb20c3c290645db7a41a"
   },
   "dist/docs/bai4.pdf": {
-    "mtime": 1783861464457.3643,
+    "mtime": 1784036274124.816,
     "hash": "b65fdc31739d68f551ffd4d9ff34ad88"
   },
   "dist/docs/bai5.pdf": {
-    "mtime": 1783861464458.4827,
+    "mtime": 1784036274129.657,
     "hash": "55b6ef62419d003e4a5ac1f9f8872944"
   },
   "dist/docs/bai6.pdf": {
-    "mtime": 1783861464459.6484,
+    "mtime": 1784036274131.8254,
     "hash": "6602437b0428410cb8e32ba7eee4e7af"
   },
   "public/docs/bai1.pdf": {
@@ -24320,23 +24320,23 @@
     "hash": "6602437b0428410cb8e32ba7eee4e7af"
   },
   "dist/avatar.jpg": {
-    "mtime": 1783861464453.1409,
+    "mtime": 1784036274114.4214,
     "hash": "8269bb461ddf5d973f28623b8a348542"
   },
   "dist/favicon.svg": {
-    "mtime": 1783861464459.9749,
+    "mtime": 1784036274132.022,
     "hash": "7e840862161341271697daa99a40d76b"
   },
   "dist/icons.svg": {
-    "mtime": 1783861464460.2607,
+    "mtime": 1784036274132.1921,
     "hash": "3b4fcfcf393eca4d264dca4a4663bc37"
   },
   "dist/images/Untitled.png": {
-    "mtime": 1783861464466.293,
+    "mtime": 1784036274139.8413,
     "hash": "22344b9df7511098ad75daedc92fb5d3"
   },
   "dist/logo.png": {
-    "mtime": 1783861464466.5215,
+    "mtime": 1784036274139.9854,
     "hash": "93eb966d2930124c8491f4dddec6035d"
   },
   "docs/stitch/assignments_digital_catalyst_redesign/screen.png": {
@@ -24398,5 +24398,9 @@
   "src/assets/vite.svg": {
     "mtime": 1783856372000,
     "hash": "9960a24288958394ac50e57ff638b036"
+  },
+  ".graphify/GRAPH_REPORT.md": {
+    "mtime": 1783861477245.3625,
+    "hash": "2fe47428b75399bf250e005fd98e4a74"
   }
 }

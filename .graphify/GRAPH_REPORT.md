@@ -1,7 +1,7 @@
-# Graph Report - .  (2026-07-12)
+# Graph Report - .  (2026-07-14)
 
 ## Corpus Check
-- Large corpus: 6100 files · ~6,815,382 words. Semantic extraction will be expensive (many Claude tokens). Consider running on a subfolder, or use --no-semantic to run AST-only.
+- Large corpus: 6101 files · ~6,816,164 words. Semantic extraction will be expensive (many Claude tokens). Consider running on a subfolder, or use --no-semantic to run AST-only.
 
 ## Summary
 - 30 nodes · 35 edges · 1 communities detected
@@ -13,12 +13,12 @@
 ## Input Scope
 - Requested: auto
 - Resolved: committed (source: default-auto)
-- Included files: 6100 · Candidates: 9537
-- Excluded: 30 untracked · 0 ignored · 19 sensitive · 14 missing committed
+- Included files: 6101 · Candidates: 9567
+- Excluded: 3 untracked · 2 ignored · 19 sensitive · 14 missing committed
 - Recommendation: Use --scope all or graphify.yaml inputs.corpus for a knowledge-base folder.
 
 ## Graph Freshness
-- Built from Git commit: `96e4adf`
+- Built from Git commit: `582a4a4`
 - Compare this hash to `git rev-parse HEAD` before trusting freshness-sensitive graph output.
 ## God Nodes (most connected - your core abstractions)
 1. `portfolioData` - 7 edges

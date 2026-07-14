@@ -1,5 +1,5 @@
 import { portfolioData } from '../data/portfolioData';
-import { Archive, BookOpenText, Library, Layers, Quote } from 'lucide-react';
+import { Archive, BookOpenText, Layers, Quote } from 'lucide-react';
 
 export default function HomeTab({ setActiveTab }) {
   const { student, overview } = portfolioData;
@@ -31,9 +31,6 @@ export default function HomeTab({ setActiveTab }) {
           <div className="action-row">
             <button onClick={() => setActiveTab('assignments')} className="neo-button primary">
               <Layers size={18} /> Xem bài tập
-            </button>
-            <button onClick={() => setActiveTab('evidence')} className="neo-button secondary">
-              <Library size={18} /> Minh chứng
             </button>
           </div>
         </div>

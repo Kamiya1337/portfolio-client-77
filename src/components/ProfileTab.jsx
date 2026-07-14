@@ -73,7 +73,7 @@ export default function ProfileTab({ setActiveTab }) {
               <Archive size={28} />
               <h3>The archive system</h3>
               <p>A digital repository for learning artifacts and academic progress.</p>
-              <button onClick={() => setActiveTab('evidence')} className="neo-button dark">Enter archive</button>
+              <button onClick={() => setActiveTab('assignments')} className="neo-button dark">Enter archive</button>
             </article>
           </div>
         </div>
