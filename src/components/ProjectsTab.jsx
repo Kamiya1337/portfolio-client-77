@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { portfolioData } from '../data/portfolioData';
-import { ArrowLeft, ChevronRight, FileText, Image as ImageIcon, X } from 'lucide-react';
+import { ArrowLeft, ChevronRight, FileText, X } from 'lucide-react';
 
 export default function ProjectsTab() {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -52,21 +52,30 @@ export default function ProjectsTab() {
               <p>{selectedProject.process}</p>
             </section>
 
-            <section className="artifact-grid">
-              <ArtifactCard
-                icon={FileText}
-                label="Báo cáo (PDF/Word)"
-                value={selectedProject.report}
-                action="Xem Báo cáo"
-                onClick={(event) => openPreview(event, selectedProject.report, 'pdf')}
-              />
-              <ArtifactCard
-                icon={ImageIcon}
-                label="Ảnh chụp màn hình"
-                value={selectedProject.evidenceImg}
-                action="Xem Hình ảnh"
-                onClick={(event) => openPreview(event, selectedProject.evidenceImg, 'img')}
-              />
+            <section className="report-download-section">
+              <div className="report-download-card">
+                <div className="report-card-info">
+                  <div className="icon-wrapper">
+                    <FileText size={34} />
+                  </div>
+                  <div>
+                    <h3>Báo cáo học tập (PDF/Word)</h3>
+                    <p>Tài liệu lưu trữ đầy đủ nội dung báo cáo, phân tích và phản biện học thuật cho bài tập này.</p>
+                  </div>
+                </div>
+                <div className="report-card-action">
+                  {selectedProject.report === 'Sẽ cập nhật sau' || !selectedProject.report || selectedProject.report === 'Không yêu cầu' ? (
+                    <span className="pending-badge">{selectedProject.report === 'Không yêu cầu' ? 'Không yêu cầu' : 'Sẽ cập nhật sau'}</span>
+                  ) : (
+                    <button
+                      onClick={(event) => openPreview(event, selectedProject.report, 'pdf')}
+                      className="neo-button primary-btn"
+                    >
+                      Xem báo cáo trực tiếp
+                    </button>
+                  )}
+                </div>
+              </div>
             </section>
           </article>
         </section>
@@ -141,26 +150,3 @@ function PreviewModal({ previewData, closePreview }) {
   );
 }
 
-function ArtifactCard({ icon: Icon, label, value, action, onClick, external = false }) {
-  const unavailable = value === 'Sẽ cập nhật sau' || !value || value === 'Không yêu cầu';
-
-  return (
-    <article className="artifact-card">
-      <Icon size={32} />
-      <h3>{label}</h3>
-      {unavailable ? (
-        <span className="pending-badge">{value === 'Không yêu cầu' ? 'Không yêu cầu' : 'Sẽ cập nhật sau'}</span>
-      ) : (
-        <a
-          href={value}
-          target={external ? '_blank' : undefined}
-          rel={external ? 'noreferrer' : undefined}
-          onClick={onClick}
-          className="neo-button compact"
-        >
-          {action}
-        </a>
-      )}
-    </article>
-  );
-}

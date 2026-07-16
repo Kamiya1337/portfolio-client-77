@@ -1296,6 +1296,95 @@ a:focus-visible {
   padding: 0 clamp(1.2rem, 3vw, 2rem) 1rem;
 }
 
+.report-download-section {
+  padding: 0 clamp(1.2rem, 3vw, 2rem) clamp(1.2rem, 3vw, 2rem);
+}
+
+.report-download-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  border: 3px solid var(--ink);
+  background: var(--surface);
+  box-shadow: 8px 8px 0 var(--black), 14px 14px 0 var(--pink);
+  padding: 1.8rem 2.2rem;
+}
+
+.report-card-info {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  min-width: 280px;
+  flex: 1;
+}
+
+.report-card-info .icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  background: var(--surface-high);
+  border: 2px solid var(--ink);
+  flex-shrink: 0;
+}
+
+.report-card-info .icon-wrapper svg {
+  color: var(--lime);
+}
+
+.report-card-info h3 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--pink-soft);
+  margin-bottom: 0.35rem;
+  text-shadow: 0 0 8px rgba(255, 176, 203, 0.2);
+}
+
+.report-card-info p {
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.5;
+  max-width: 32rem;
+}
+
+.report-card-action {
+  flex-shrink: 0;
+}
+
+.report-card-action .neo-button.primary-btn {
+  background: var(--lime);
+  color: var(--black);
+  box-shadow: 5px 5px 0 var(--black);
+}
+
+.report-card-action .neo-button.primary-btn:hover {
+  background: var(--paper);
+  box-shadow: 7px 7px 0 var(--pink);
+}
+
+@media (max-width: 640px) {
+  .report-download-card {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 1.5rem;
+  }
+  .report-card-info {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  .report-card-action {
+    width: 100%;
+  }
+  .report-card-action button {
+    width: 100%;
+  }
+}
+
 .artifact-card {
   display: grid;
   align-content: center;

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { portfolioData } from '../data/portfolioData';
-import { CheckCircle2, FileText, Image as ImageIcon, Maximize2, Search, X, XCircle } from 'lucide-react';
+import { CheckCircle2, FileText, Maximize2, Search, X, XCircle } from 'lucide-react';
 
 export default function EvidenceTable() {
   const { projects } = portfolioData;
@@ -40,11 +40,11 @@ export default function EvidenceTable() {
         <header className="evidence-header">
           <div>
             <h1 className="mega-title">Evidence<br /><span>Repository</span></h1>
-            <p>A curated archive of reports and screenshots for each learning milestone.</p>
+            <p>A curated archive of reports for each learning milestone.</p>
           </div>
           <div className="artifact-count">
             <span>Total artifacts</span>
-            <strong>{projects.length * 2}</strong>
+            <strong>{projects.length}</strong>
           </div>
         </header>
 
@@ -69,7 +69,6 @@ export default function EvidenceTable() {
               </div>
               <div className="archive-links">
                 <EvidenceLink icon={FileText} value={project.report} label="Xem báo cáo" type="pdf" onClick={openPreview} />
-                <EvidenceLink icon={ImageIcon} value={project.evidenceImg} label="Xem ảnh" type="img" onClick={openPreview} />
               </div>
             </article>
           ))}
@@ -93,7 +92,7 @@ function EvidenceLink({ icon: Icon, value, label, type, onClick }) {
 }
 
 function StatusBadge({ project }) {
-  const done = [project.report, project.evidenceImg].every((value) => value && value !== 'Sẽ cập nhật sau' && value !== 'Không yêu cầu');
+  const done = project.report && project.report !== 'Sẽ cập nhật sau' && project.report !== 'Không yêu cầu';
   return (
     <span className={`archive-status ${done ? 'done' : 'missing'}`}>
       {done ? <CheckCircle2 size={14} /> : <XCircle size={14} />}

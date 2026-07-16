@@ -14,7 +14,7 @@
       "8": "Community 8",
       "9": "Community 9"
     },
-    "built_from_commit": "ef87dababcf7285094bcaa6fb9be6b4d2ce2966e"
+    "built_from_commit": "58ecf08cb8faaf3240bd3faf0ada8325a62bb2be"
   },
   "topology_signature": "n=30;e=35;components_evidencetable,components_evidencetable_evidencelink,components_evidencetable_evidencetable,components_evidencetable_statusbadge,components_hometab,components_hometab_hometab,components_learningmap,components_learningmap_learningmap,components_profiletab,components_profiletab_profiletab,components_projectstab,components_projectstab_artifactcard,components_projectstab_previewmodal,components_projectstab_projectstab,components_rubrictable,components_rubrictable_rubrictable,components_rubrictable_statuspill,components_sidebar,components_sidebar_sidebar,components_summary,components_summary_summary,data_portfoliodata,data_portfoliodata_portfoliodata,eslint_config,postcss_config,src_app,src_app_app,src_main,tailwind_config,vite_config|components_evidencetable\tcomponents_evidencetable_evidencelink\tcontains;components_evidencetable\tcomponents_evidencetable_evidencetable\tcontains;components_evidencetable\tcomponents_evidencetable_statusbadge\tcontains;components_evidencetable\tdata_portfoliodata\timports_from;components_evidencetable\tdata_portfoliodata_portfoliodata\timports;components_evidencetable\tsrc_app\timports_from;components_hometab\tcomponents_hometab_hometab\tcontains;components_hometab\tdata_portfoliodata\timports_from;components_hometab\tdata_portfoliodata_portfoliodata\timports;components_hometab\tsrc_app\timports_from;components_learningmap\tcomponents_learningmap_learningmap\tcontains;components_learningmap\tdata_portfoliodata\timports_from;components_learningmap\tdata_portfoliodata_portfoliodata\timports;components_learningmap\tsrc_app\timports_from;components_profiletab\tcomponents_profiletab_profiletab\tcontains;components_profiletab\tdata_portfoliodata\timports_from;components_profiletab\tdata_portfoliodata_portfoliodata\timports;components_profiletab\tsrc_app\timports_from;components_projectstab\tcomponents_projectstab_artifactcard\tcontains;components_projectstab\tcomponents_projectstab_previewmodal\tcontains;components_projectstab\tcomponents_projectstab_projectstab\tcontains;components_projectstab\tdata_portfoliodata\timports_from;components_projectstab\tdata_portfoliodata_portfoliodata\timports;components_projectstab\tsrc_app\timports_from;components_rubrictable\tcomponents_rubrictable_rubrictable\tcontains;components_rubrictable\tcomponents_rubrictable_statuspill\tcontains;components_rubrictable\tdata_portfoliodata\timports_from;components_rubrictable\tdata_portfoliodata_portfoliodata\timports;components_rubrictable\tsrc_app\timports_from;components_sidebar\tcomponents_sidebar_sidebar\tcontains;components_sidebar\tsrc_app\timports_from;components_summary\tcomponents_summary_summary\tcontains;components_summary\tsrc_app\timports_from;data_portfoliodata\tdata_portfoliodata_portfoliodata\tcontains;src_app\tsrc_app_app\tcontains",
   "nodes": [
@@ -77,7 +77,7 @@
       "label": "EvidenceLink()",
       "file_type": "code",
       "source_file": "src/components/EvidenceTable.jsx",
-      "source_location": "L82",
+      "source_location": "L81",
       "community": 2,
       "community_name": "Community 2"
     },
@@ -86,7 +86,7 @@
       "label": "StatusBadge()",
       "file_type": "code",
       "source_file": "src/components/EvidenceTable.jsx",
-      "source_location": "L95",
+      "source_location": "L94",
       "community": 2,
       "community_name": "Community 2"
     },
@@ -167,16 +167,7 @@
       "label": "PreviewModal()",
       "file_type": "code",
       "source_file": "src/components/ProjectsTab.jsx",
-      "source_location": "L119",
-      "community": 3,
-      "community_name": "Community 3"
-    },
-    {
-      "id": "components_projectstab_artifactcard",
-      "label": "ArtifactCard()",
-      "file_type": "code",
-      "source_file": "src/components/ProjectsTab.jsx",
-      "source_location": "L144",
+      "source_location": "L128",
       "community": 3,
       "community_name": "Community 3"
     },
@@ -287,6 +278,15 @@
       "source_location": "L1",
       "community": 9,
       "community_name": "Community 9"
+    },
+    {
+      "id": "components_projectstab_artifactcard",
+      "label": "ArtifactCard()",
+      "file_type": "code",
+      "source_file": "src/components/ProjectsTab.jsx",
+      "source_location": "L137",
+      "community": 3,
+      "community_name": "Community 3"
     }
   ],
   "links": [
@@ -456,18 +456,6 @@
       "weight": 1,
       "_src": "components_profiletab",
       "_tgt": "data_portfoliodata_portfoliodata",
-      "confidence_score": 1
-    },
-    {
-      "source": "components_projectstab",
-      "target": "components_projectstab_artifactcard",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/ProjectsTab.jsx",
-      "source_location": "L144",
-      "weight": 1,
-      "_src": "components_projectstab",
-      "_tgt": "components_projectstab_artifactcard",
       "confidence_score": 1
     },
     {
@@ -696,6 +684,18 @@
       "weight": 1,
       "_src": "src_app",
       "_tgt": "src_app_app",
+      "confidence_score": 1
+    },
+    {
+      "source": "components_projectstab",
+      "target": "components_projectstab_artifactcard",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ProjectsTab.jsx",
+      "source_location": "L144",
+      "weight": 1,
+      "_src": "components_projectstab",
+      "_tgt": "components_projectstab_artifactcard",
       "confidence_score": 1
     },
     {

@@ -23000,8 +23000,8 @@
     "hash": "3c9f445ca666da85c94d0aa62fd2e299"
   },
   "src/components/EvidenceTable.jsx": {
-    "mtime": 1783861668000,
-    "hash": "725b3969a322f37b766600d350d96c75"
+    "mtime": 1784224825818.3445,
+    "hash": "b3e135fc53425c849aab9db7d1629cc6"
   },
   "src/components/HomeTab.jsx": {
     "mtime": 1784050208121.6309,
@@ -23016,8 +23016,8 @@
     "hash": "2b1419aea5450b053e7e0fa00b9165ee"
   },
   "src/components/ProjectsTab.jsx": {
-    "mtime": 1783861668000,
-    "hash": "a295e5476bebbda3341e55f5381058f3"
+    "mtime": 1784225041187.1619,
+    "hash": "38cfdd6176ab28e368172b44a59a363b"
   },
   "src/components/RubricTable.jsx": {
     "mtime": 1783861668000,
@@ -23056,8 +23056,8 @@
     "hash": "a28dc4cb878325f3e9e5649f3e1469ac"
   },
   "dist/index.html": {
-    "mtime": 1784222474634.6785,
-    "hash": "d2dd4c855af454386c95db45711919e7"
+    "mtime": 1784225067019.5083,
+    "hash": "a010a949f4c756a18c12c30b103ea7ac"
   },
   "docs/stitch/assignments_digital_catalyst_redesign/code.html": {
     "mtime": 1783861668000,
@@ -24104,27 +24104,27 @@
     "hash": "b489730fc20fdfc9c031fb0f1028470e"
   },
   "dist/docs/bai1.pdf": {
-    "mtime": 1784222474569.0916,
+    "mtime": 1784225066953.6118,
     "hash": "a5c6260c09d0cf18405295bd6adb39de"
   },
   "dist/docs/bai2.pdf": {
-    "mtime": 1784222474569.9785,
+    "mtime": 1784225066954.5115,
     "hash": "95cd43fc380de9fea5074b3b47001f2f"
   },
   "dist/docs/bai3.pdf": {
-    "mtime": 1784222474570.5225,
+    "mtime": 1784225066955.022,
     "hash": "04130715e4a2eb20c3c290645db7a41a"
   },
   "dist/docs/bai4.pdf": {
-    "mtime": 1784222474573.3572,
+    "mtime": 1784225066957.7722,
     "hash": "b65fdc31739d68f551ffd4d9ff34ad88"
   },
   "dist/docs/bai5.pdf": {
-    "mtime": 1784222474575.398,
+    "mtime": 1784225066959.8738,
     "hash": "55b6ef62419d003e4a5ac1f9f8872944"
   },
   "dist/docs/bai6.pdf": {
-    "mtime": 1784222474582.372,
+    "mtime": 1784225066965.5134,
     "hash": "6602437b0428410cb8e32ba7eee4e7af"
   },
   "public/docs/bai1.pdf": {
@@ -24152,19 +24152,19 @@
     "hash": "6602437b0428410cb8e32ba7eee4e7af"
   },
   "dist/avatar.jpg": {
-    "mtime": 1784222474561.8489,
+    "mtime": 1784225066945.443,
     "hash": "8269bb461ddf5d973f28623b8a348542"
   },
   "dist/favicon.svg": {
-    "mtime": 1784222474582.7886,
+    "mtime": 1784225066965.805,
     "hash": "7e840862161341271697daa99a40d76b"
   },
   "dist/icons.svg": {
-    "mtime": 1784222474583.1812,
+    "mtime": 1784225066966.0874,
     "hash": "3b4fcfcf393eca4d264dca4a4663bc37"
   },
   "dist/logo.png": {
-    "mtime": 1784222474589.438,
+    "mtime": 1784225066972.7205,
     "hash": "93eb966d2930124c8491f4dddec6035d"
   },
   "docs/stitch/assignments_digital_catalyst_redesign/screen.png": {
@@ -24224,8 +24224,8 @@
     "hash": "9960a24288958394ac50e57ff638b036"
   },
   ".graphify/GRAPH_REPORT.md": {
-    "mtime": 1784222430032.1396,
-    "hash": "9aedb680ed4c404a0c263863ba8bff8b"
+    "mtime": 1784225006758.854,
+    "hash": "80da9f1d2795a49d52252478e9f086bc"
   },
   "node_modules/.vite/deps/rolldown-runtime-EAsCxrDo.js": {
     "mtime": 1784044901871.5874,
@@ -24506,5 +24506,53 @@
   "node_modules/vite/node_modules/picomatch/README.md": {
     "mtime": 1784038652165.3743,
     "hash": "08bfe2a0f609f377b245c944d1ec9d29"
+  },
+  "dist/images/bai-1.png": {
+    "mtime": 1784225066968.7239,
+    "hash": "ca45f752e34113cb5e603ac3101e7bcf"
+  },
+  "dist/images/bai-2.png": {
+    "mtime": 1784225066969.3687,
+    "hash": "02f850a6fdbeaa959716bd55b37e42a1"
+  },
+  "dist/images/bai-3.png": {
+    "mtime": 1784225066970.1018,
+    "hash": "676b2b0dc8f927774eff84e19b439189"
+  },
+  "dist/images/bai-4.png": {
+    "mtime": 1784225066970.625,
+    "hash": "14820df113c959c743867ae0681f6d16"
+  },
+  "dist/images/bai-5.png": {
+    "mtime": 1784225066971.3994,
+    "hash": "17992c9c79d2451b0530b70337b338c3"
+  },
+  "dist/images/bai-6.png": {
+    "mtime": 1784225066972.128,
+    "hash": "e2d2aad237807630abc395285557cbdf"
+  },
+  "public/images/bai-1.png": {
+    "mtime": 1783861668000,
+    "hash": "ca45f752e34113cb5e603ac3101e7bcf"
+  },
+  "public/images/bai-2.png": {
+    "mtime": 1783861668000,
+    "hash": "02f850a6fdbeaa959716bd55b37e42a1"
+  },
+  "public/images/bai-3.png": {
+    "mtime": 1783861668000,
+    "hash": "676b2b0dc8f927774eff84e19b439189"
+  },
+  "public/images/bai-4.png": {
+    "mtime": 1783861668000,
+    "hash": "14820df113c959c743867ae0681f6d16"
+  },
+  "public/images/bai-5.png": {
+    "mtime": 1783861668000,
+    "hash": "17992c9c79d2451b0530b70337b338c3"
+  },
+  "public/images/bai-6.png": {
+    "mtime": 1783861668000,
+    "hash": "e2d2aad237807630abc395285557cbdf"
   }
 }

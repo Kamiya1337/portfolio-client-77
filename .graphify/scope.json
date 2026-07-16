@@ -4,13 +4,13 @@
   "source": "default-auto",
   "root": ".",
   "git_root": ".",
-  "head": "ef87dababcf7285094bcaa6fb9be6b4d2ce2966e",
+  "head": "58ecf08cb8faaf3240bd3faf0ada8325a62bb2be",
   "candidate_count": 9642,
-  "included_count": 6127,
-  "excluded_untracked_count": 16,
+  "included_count": 6139,
+  "excluded_untracked_count": 6,
   "excluded_ignored_count": 2,
   "excluded_sensitive_count": 19,
-  "missing_committed_count": 16,
+  "missing_committed_count": 2,
   "warnings": [],
   "recommendation": "Use --scope all or graphify.yaml inputs.corpus for a knowledge-base folder."
 }
