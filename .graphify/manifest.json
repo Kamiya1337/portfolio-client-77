@@ -23012,8 +23012,8 @@
     "hash": "03c24b9cd8819314702ac86fbdac44ff"
   },
   "src/components/ProfileTab.jsx": {
-    "mtime": 1784050730621.314,
-    "hash": "6f3ace39bfa578d33bd4fa815688c3f9"
+    "mtime": 1784222415429.7656,
+    "hash": "2b1419aea5450b053e7e0fa00b9165ee"
   },
   "src/components/ProjectsTab.jsx": {
     "mtime": 1783861668000,
@@ -23032,8 +23032,8 @@
     "hash": "0106355c7773be9a414a7c6887ca5ec9"
   },
   "src/data/portfolioData.js": {
-    "mtime": 1783861668000,
-    "hash": "2242808114c1a644569af1b5a7808030"
+    "mtime": 1784222207157.4944,
+    "hash": "92f84724ba173ab5fe3d627877af8cb6"
   },
   "src/main.jsx": {
     "mtime": 1783861668000,
@@ -23056,8 +23056,8 @@
     "hash": "a28dc4cb878325f3e9e5649f3e1469ac"
   },
   "dist/index.html": {
-    "mtime": 1784050735238.3745,
-    "hash": "12f46cead7ed5630d5fc63e97462830d"
+    "mtime": 1784222474634.6785,
+    "hash": "d2dd4c855af454386c95db45711919e7"
   },
   "docs/stitch/assignments_digital_catalyst_redesign/code.html": {
     "mtime": 1783861668000,
@@ -24104,27 +24104,27 @@
     "hash": "b489730fc20fdfc9c031fb0f1028470e"
   },
   "dist/docs/bai1.pdf": {
-    "mtime": 1784050735169.7056,
+    "mtime": 1784222474569.0916,
     "hash": "a5c6260c09d0cf18405295bd6adb39de"
   },
   "dist/docs/bai2.pdf": {
-    "mtime": 1784050735170.5776,
+    "mtime": 1784222474569.9785,
     "hash": "95cd43fc380de9fea5074b3b47001f2f"
   },
   "dist/docs/bai3.pdf": {
-    "mtime": 1784050735170.9836,
+    "mtime": 1784222474570.5225,
     "hash": "04130715e4a2eb20c3c290645db7a41a"
   },
   "dist/docs/bai4.pdf": {
-    "mtime": 1784050735173.561,
+    "mtime": 1784222474573.3572,
     "hash": "b65fdc31739d68f551ffd4d9ff34ad88"
   },
   "dist/docs/bai5.pdf": {
-    "mtime": 1784050735178.5757,
+    "mtime": 1784222474575.398,
     "hash": "55b6ef62419d003e4a5ac1f9f8872944"
   },
   "dist/docs/bai6.pdf": {
-    "mtime": 1784050735181.022,
+    "mtime": 1784222474582.372,
     "hash": "6602437b0428410cb8e32ba7eee4e7af"
   },
   "public/docs/bai1.pdf": {
@@ -24152,19 +24152,19 @@
     "hash": "6602437b0428410cb8e32ba7eee4e7af"
   },
   "dist/avatar.jpg": {
-    "mtime": 1784050735162.6687,
+    "mtime": 1784222474561.8489,
     "hash": "8269bb461ddf5d973f28623b8a348542"
   },
   "dist/favicon.svg": {
-    "mtime": 1784050735181.3794,
+    "mtime": 1784222474582.7886,
     "hash": "7e840862161341271697daa99a40d76b"
   },
   "dist/icons.svg": {
-    "mtime": 1784050735183.2644,
+    "mtime": 1784222474583.1812,
     "hash": "3b4fcfcf393eca4d264dca4a4663bc37"
   },
   "dist/logo.png": {
-    "mtime": 1784050735190.5076,
+    "mtime": 1784222474589.438,
     "hash": "93eb966d2930124c8491f4dddec6035d"
   },
   "docs/stitch/assignments_digital_catalyst_redesign/screen.png": {
@@ -24224,8 +24224,8 @@
     "hash": "9960a24288958394ac50e57ff638b036"
   },
   ".graphify/GRAPH_REPORT.md": {
-    "mtime": 1784050416558.6448,
-    "hash": "5d62992f2c2e8c7d7f768b401ae7b0b4"
+    "mtime": 1784222430032.1396,
+    "hash": "9aedb680ed4c404a0c263863ba8bff8b"
   },
   "node_modules/.vite/deps/rolldown-runtime-EAsCxrDo.js": {
     "mtime": 1784044901871.5874,
@@ -24506,13 +24506,5 @@
   "node_modules/vite/node_modules/picomatch/README.md": {
     "mtime": 1784038652165.3743,
     "hash": "08bfe2a0f609f377b245c944d1ec9d29"
-  },
-  "dist/images/Untitled.png": {
-    "mtime": 1784050735189.9207,
-    "hash": "22344b9df7511098ad75daedc92fb5d3"
-  },
-  "public/images/Untitled.png": {
-    "mtime": 1783861668000,
-    "hash": "22344b9df7511098ad75daedc92fb5d3"
   }
 }

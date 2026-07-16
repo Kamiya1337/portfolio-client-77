@@ -883,6 +883,7 @@ a:focus-visible {
 
 .tilted-portrait {
   transform: rotate(4deg);
+  align-self: start;
 }
 
 .tilted-portrait .sticker {

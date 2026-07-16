@@ -33,7 +33,11 @@ export default function ProfileTab({ setActiveTab }) {
 
         <aside className="tilted-portrait">
           <div className="portrait-frame">
-            <img src="/avatar.jpg" alt="Chân dung Lê Xuân Vi Bảo" className="object-cover object-[center_30%]" />
+            <img src="/avatar.jpg" alt="Chân dung Lê Xuân Vi Bảo" className="object-cover object-[center_60%]" />
+          </div>
+          <div className="profile-meta">
+            <p>MSSV: 25040487</p>
+            <p>Lớp: VNU1001_E252053</p>
           </div>
           <span className="sticker lime">Catalyst</span>
         </aside>
