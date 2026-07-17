@@ -14,7 +14,7 @@ export default function LearningMap({ setActiveTab }) {
           <h1 className="mega-title lime-title">
             Learning<br /><span>Map</span>
           </h1>
-          <p className="paper-note">System initialized. Navigating through 7 core modules for digital literacy and AI-assisted learning.</p>
+          <p className="paper-note">All set. Starting our 7-step journey to master digital tools and AI.</p>
         </header>
 
         <div className="map-board">

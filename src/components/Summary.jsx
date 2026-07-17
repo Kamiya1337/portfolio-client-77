@@ -24,13 +24,11 @@ export default function Summary() {
         <article className="reflection-paper wide">
           <h2>Kiến thức & Kỹ năng đã đạt được</h2>
           <p>
-            Thông qua việc hoàn thành 6 bài tập của học phần, em đã tiếp thu được nhiều kiến thức và kỹ năng quan trọng liên quan đến công nghệ số. Em hiểu rõ hơn về các thành phần của máy tính và thiết bị ngoại vi, cách khai thác thông tin trên Internet một cách hiệu quả, cũng như các nguyên tắc đánh giá độ tin cậy của nguồn thông tin. 
+            Sau khi hoàn thành 6 bài tập trong học phần, em đã tích lũy được nhiều kiến thức về công nghệ vô cùng giá trị. Em không chỉ hiểu về máy tính, cách tra cứu mạng và đánh giá thông tin, mà còn học được cách dùng AI sao cho hợp lý và an toàn trong học tập.
             <br /><br />
-            Bên cạnh đó, em còn được tiếp cận với trí tuệ nhân tạo (AI), hiểu được những lợi ích, hạn chế và cách sử dụng AI một cách phù hợp trong học tập.
+            Em cũng đã cải thiện được kỹ năng tìm kiếm, biết viết prompt để “giao tiếp” với AI, thành thạo các công cụ làm việc nhóm và tự tin hơn khi thiết kế, trình bày bài tập. Đặc biệt, em cũng hiểu tầm quan trọng của việc bảo vệ thông tin cá nhân và tôn trọng bản quyền trên mạng.
             <br /><br />
-            Về kỹ năng, em đã nâng cao khả năng tìm kiếm, chọn lọc và xử lý thông tin từ nhiều nguồn khác nhau. Em biết cách xây dựng Prompt để tương tác hiệu quả với các công cụ AI, sử dụng các nền tảng số để giao tiếp và hợp tác trực tuyến, đồng thời phát triển kỹ năng sáng tạo nội dung số thông qua việc thiết kế và trình bày sản phẩm học tập. Ngoài ra, em cũng hiểu rõ hơn về an toàn thông tin, bảo vệ dữ liệu cá nhân và các nguyên tắc liêm chính học thuật trong môi trường số.
-            <br /><br />
-            Những kiến thức và kỹ năng này không chỉ giúp em hoàn thành tốt các yêu cầu của học phần mà còn tạo nền tảng quan trọng cho quá trình học tập và phát triển nghề nghiệp trong tương lai.
+            Đây chắc chắn là những kỹ năng nền tảng giúp em có thể học tập tốt, hiệu quả hơn và chuẩn bị hành trang vững chắc cho sự nghiệp tương lai.
           </p>
         </article>
 
@@ -74,10 +72,7 @@ Thông qua quá trình học tập môn Nhập môn Công nghệ số và Ứng 
           <ShieldCheck size={34} />
           <h2>Cam kết Liêm chính Học thuật</h2>
           <p>
-            Em cam kết các nội dung và báo cáo trong portfolio này phản ánh đúng năng lực và quá trình thực hành của cá nhân.
-            Việc sử dụng AI được giới hạn ở vai trò công cụ hỗ trợ (gợi ý trình bày, sửa code, kiểm tra thông tin) và không thay thế cho tư duy tự học.
-            Toàn bộ dữ liệu, sản phẩm và tiến trình làm bài tại đây đều là thật, không có hành vi làm giả minh chứng hay gian lận thông tin.
-            Trân trọng cảm ơn thầy cô đã dành thời gian đánh giá!
+            Em cam kết toàn bộ nội dung và báo cáo trong hồ sơ này đều phản ánh đúng năng lực cũng như quá trình nỗ lực thực tế của bản thân. Em chỉ sử dụng AI như một công cụ hỗ trợ (gợi ý bố cục, sửa lỗi code hoặc tìm kiếm thông tin), tuyệt đối không để công nghệ thay thế tư duy và khả năng thực của bản thân. Mọi số liệu, sản phẩm và tiến độ hoàn thành ở đây đều là thật, hoàn toàn không có sự gian lận hay làm giả minh chứng. Em xin chân thành cảm ơn thầy cô đã dành thời gian xem xét và đánh giá bài làm!
           </p>
           <div><span>#verified</span><span>#original</span><Sparkles size={18} /></div>
         </article>

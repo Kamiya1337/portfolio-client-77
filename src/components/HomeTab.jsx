@@ -97,7 +97,7 @@ export default function HomeTab({ setActiveTab }) {
         <div className="metadata-row">
           <div className="quote-ticket">
             <Archive size={28} />
-            <p>"Strategy becomes credible when it is documented, reviewed, and reflected upon."</p>
+            <p>"A strategy only works when you write it down, check it regularly, and learn from it."</p>
           </div>
           <div className="project-meta">
             <h3>Project Metadata</h3>

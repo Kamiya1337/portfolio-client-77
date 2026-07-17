@@ -6,7 +6,7 @@ export const portfolioData = {
     id: "K59",
     major: "Ngôn ngữ và Văn hóa Anh",
     university: "Trường Đại học Ngoại ngữ - Đại học Quốc gia Hà Nội (ULIS - VNU)",
-    bio: "Portfolio nhằm lưu trữ, hệ thống hóa các sản phẩm học tập đã thực hiện trong học phần, đồng thời thể hiện quá trình phát triển kiến thức, kỹ năng số và làm cơ sở theo dõi sự tiến bộ của bản thân trong tương lai.",
+    bio: "Portfolio được xây dựng nhằm lưu trữ và sắp xếp khoa học các sản phẩm trong suốt học phần. Đây là minh chứng rõ nét cho lộ trình phát triển kiến thức, năng lực số, đồng thời là cơ sở giúp người học tự đánh giá sự tiến bộ của bản thân trong tương lai.",
     skills: ["English Language", "English Culture", "Digital Literacy", "AI-assisted Learning", "Academic Research", "Intercultural Communication"]
   },
   overview: [
